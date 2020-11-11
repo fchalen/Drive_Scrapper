@@ -38,7 +38,7 @@ df['devName'] = df['name'].str.extract(pat = '([A-Z]\w{0,}\w{0,})',expand= True)
 
 print(df.head())
 
-df.to_csv('D:\BairesDev\HP_checklist.csv')
+df.to_csv('HP_checklist.csv')
 
 #print(df.dtypes)
 
